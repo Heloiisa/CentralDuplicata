@@ -1,7 +1,8 @@
 new Vue({
 	el:'#cadastroadministrador',
 	data: {
-		modal:true,
+		check: [],
+		modal:false,
 		cep: null,
         data: null,
         message: null,
